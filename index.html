@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+<head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" integrity="sha384-3ceskX3iaEnIogmQchP8opvBy3Mi7Ce34nWjpBIwVTHfGYWQS9jwHDVRnpKKHJg7" crossorigin="anonymous"></script>
+            <!-- 最新編譯和最佳化的 CSS -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+            <!-- 最新編譯和最佳化的 JavaScript -->
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+      <link rel="stylesheet" href="css/bootstrap-table.css">
+      <script src="js/bootstrap-table.js"></script>
+      <script src="js/bootstrap-table-zh-TW.js"></script>
+
+
+
+
+</head>
+<body>
+  <div class="container">
+  <nav class="navbar navbar-light bg-faded">
+    <ul class="nav navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">城娘基礎數值</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">巨大化數值(含特技)</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">總體比較</a>
+      </li>
+    </ul>
+  </nav>
+
+<h1><strong>城娘基礎數值</strong></h1>
+<hr/>
+<div class="row">
+    <div class="col-sm-2"><strong>預設等級</strong></div>
+    <div class="col-sm-3"><input id="currectlv" type="text" value="60"/></div>
+    <div class="col-sm-2"><strong>預設好感度</strong></div>
+    <div class="col-sm-3"><input id="likeRank" type="text" value="100"/></div>
+    <div class="col-sm-2"><button type="button" class="btn btn-primary glyphicon glyphicon-play" onclick="countValue()">&nbsp;重新計算</button></div>
+</div>
+<hr/>
+
+<table id="table1" class="table table-striped table-hover" data-toggle="table" >
+  <thead>
+    <tr>
+      <th class="col-sm-1 text-center">項次</th>
+      <th class="col-sm-1 text-center">武器</th>
+      <th class="col-sm-2 text-center">城娘名稱</th>
+      <th class="col-sm-1 text-center">屬性</th>
+      <th class="col-sm-1 text-center">稀有度</th>
+      <th class="col-sm-2 text-center">耐久</th>
+      <th class="col-sm-2 text-center">攻擊</th>
+      <th class="col-sm-2 text-center">防禦</th>
+    </tr>
+  </thead>
+    <tbody>
+
+    </tbody>
+    <tfoot>
+      <tr>
+        <td class="text-right" colspan="8" id="tfoottd"></td>
+      </tr>
+    </tfoot>
+</table>
+</div>
+</body>
+
+
+<script src="js/data.js"></script>
+<script src="js/function.js"></script>
+</html>
