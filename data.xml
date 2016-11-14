@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<bases>
+               <sword><hp><lv0>1560</lv0><lv100>2611</lv100></hp><atk><lv0>66</lv0><lv100>222</lv100></atk><def><lv0>65</lv0><lv100>217</lv100></def></sword>
+               <spear><hp><lv0>1140</lv0><lv100>1908</lv100></hp><atk><lv0>51</lv0><lv100>172</lv100></atk><def><lv0>48</lv0><lv100>162</lv100></def></spear>
+               <hummer><hp><lv0>1680</lv0><lv100>2812</lv100></hp><atk><lv0>81</lv0><lv100>272</lv100></atk><def><lv0>66</lv0><lv100>222</lv100></def></hummer>
+               <shield><hp><lv0>1800</lv0><lv100>3000</lv100></hp><atk><lv0>61</lv0><lv100>205</lv100></atk><def><lv0>70</lv0><lv100>235</lv100></def></shield>
+               <gun><hp><lv0>840</lv0><lv100>1406</lv100></hp><atk><lv0>90</lv0><lv100>303</lv100></atk><def><lv0>36</lv0><lv100>121</lv100></def></gun>
+               <crossbow><hp><lv0>1080</lv0><lv100>1808</lv100></hp><atk><lv0>72</lv0><lv100>242</lv100></atk><def><lv0>45</lv0><lv100>152</lv100></def></crossbow>
+               <bow><hp><lv0>960</lv0><lv100>1607</lv100></hp><atk><lv0>50</lv0><lv100>168</lv100></atk><def><lv0>39</lv0><lv100>131</lv100></def></bow>
+               <cannon><hp><lv0>870</lv0><lv100>1456</lv100></hp><atk><lv0>69</lv0><lv100>232</lv100></atk><def><lv0>39</lv0><lv100>131</lv100></def></cannon>
+               <spell><hp><lv0>960</lv0><lv100>1607</lv100></hp><atk><lv0>48</lv0><lv100>162</lv100></atk><def><lv0>34</lv0><lv100>116</lv100></def></spell>
+               <song><hp><lv0>900</lv0><lv100>1507</lv100></hp><atk><lv0>41</lv0><lv100>141</lv100></atk><def><lv0>37</lv0><lv100>126</lv100></def></song>
+</bases>
