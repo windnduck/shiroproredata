@@ -116,9 +116,9 @@ function countValue(){
              RESULT = Math.floor(R*(A1+Math.floor(A2-A1)*LV/100))*(1+L/1000)
            */
 
-           hp  = Math.floor(hpP*(hp0+Math.floor((hp100-hp0)*lv/100))*(1+likeRank/1000));
-           atk = Math.floor(atkP*(atk0+Math.floor((atk100-atk0)*lv/100))*(1+likeRank/1000));
-           def = Math.floor(defP*(def0+Math.floor((def100-def0)*lv/100))*(1+likeRank/1000));
+           hp  = Math.floor(Math.floor(Math.floor((hp100-hp0)*lv/100)*hpP)*(1+likeRank/1000));
+           atk = Math.floor(Math.floor(Math.floor((atk100-atk0)*lv/100)*atkP)*(1+likeRank/1000));
+           def = Math.floor(Math.floor(Math.floor((def100-def0)*lv/100)*defP)*(1+likeRank/1000));
 
 
 
